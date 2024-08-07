@@ -33,15 +33,21 @@ Eller benyt kommandoen
 npm run seedAll
 ```
 
-## 3. Åbn Mongo Compass.
+## 3. Opret et lokalt branch.
+
+Opret og skift til ey lokalt branch du kalder feks. "dev-server".
+
+## 4. Åbn Mongo Compass.
 
 Åbn Mongo Compass og se din "gowalafarms-db".
-
-## 4. Opret et lokalt branch.
-
-Opret og skift til ey lokalt branch du kalder "dev-server".
 
 ## 5. Start serveren.
 
 Kør "start" i 'NPM Script' i visual kode.
 
+## 6. Åbn Postman.
+
+Importér 'postman_01.json' som "Gowala Farms - Local".
+Opret et Gowala Farms environment i post man og tilføj `api_local_path` og sæt den til `http://localhost:3042`.
+
+Test `Get Employees` endpointet.
